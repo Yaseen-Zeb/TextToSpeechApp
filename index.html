@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TextToSpeechApp</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.2.96/css/materialdesignicons.min.css">
+</head>
+
+<body>
+
+    <div class="card">
+        <header class="heading">Text to Voice</header>
+        <div class="card-body">
+
+            <div class="row">
+                <div class="selector">
+                    <select value="" class="custom-select l1">
+
+                    </select>
+                </div>
+                <div class="col-md-12 d-flex m">
+                    <span class="text-box text-box1">
+                        <div class="">
+                            <textarea class="t1" rows="8" placeholder="Enter text..."></textarea>
+                        </div>
+                    </span>
+                </div>
+                <div class="last_div">
+                    <div class="error" role="alert"></div>
+                    <button class="translate_btn">Convert to voice <span class="mdi mdi-volume-source"></span></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
